@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.list-card {
+  border-color: #b5b7c4;
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px;
+  border-radius: 10px;
+  width: 280px;
+  margin: 10px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-heading {
+  font-size: 16px;
+  color: #171f46;
+}
+
+.star-image {
+  width: 20px;
+  height: 20px;
+}
+
+.para {
+  color: #b5b7c4;
+  font-size: 14px;
+}
+
+.star-button {
+  background-color: transparent;
+  border-width: 0px;
+}

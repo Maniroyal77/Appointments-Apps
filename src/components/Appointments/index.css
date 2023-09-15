@@ -1,0 +1,80 @@
+/* Write your CSS here */
+
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+}
+
+.main-card {
+  background-color: white;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+  width: 1000px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input {
+  margin-bottom: 15px;
+  width: 300px;
+}
+
+.submit-button {
+  width: 40px;
+  background-color: #8b5cf6;
+  border-width: 0px;
+  border-radius: 4px;
+  color: white;
+  margin-top: 10px;
+}
+
+.appointment-image {
+  width: 350px;
+  height: 250px;
+}
+
+.line {
+  margin-top: 30px;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+.starred-button {
+  background-color: white;
+  border-color: #9796f0;
+  color: #9796f0;
+  border-width: 1px;
+  border-radius: 8px;
+  height: 25px;
+  width: 60px;
+}
+
+.starred-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  list-style-type: none;
+  padding-left: 0px;
+}
